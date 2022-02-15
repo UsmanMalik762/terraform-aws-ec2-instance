@@ -1,6 +1,6 @@
 
 data "template_file" "script" {
-    template = "${file("${var.script_path}")}"
+    template = "${file("${var.script_path != null ? "${var.script_path}" : "${path.module}/userdata.yaml"}")}"
   
 }
 
