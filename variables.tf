@@ -35,7 +35,7 @@ variable "key_name" {
 variable "script_path" {
     type = string
     description = "Provide scirpt path for your cloud-init script"
-    default = null
+    default = "./userdata.yaml"
 }
 
 variable "sg_id" {

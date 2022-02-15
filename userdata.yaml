@@ -1,0 +1,5 @@
+#cloud-config
+packages:
+  - #Provide the packages that you want to install  
+run-cmd: 
+  - #Provide the commands that you want to run on your instance.

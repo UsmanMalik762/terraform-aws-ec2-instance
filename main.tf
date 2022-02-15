@@ -23,15 +23,6 @@ resource "aws_instance" "ec2" {
 
 }
 
-resource "aws_eip" "elastic_ip" {
-  instance = aws_instance.ec2.id
-  vpc      = true
-  tags = {
-    Name = var.instance_tag
-  }
-  depends_on = [
-    aws_instance.ec2
-  ]
-}
+
 
 
