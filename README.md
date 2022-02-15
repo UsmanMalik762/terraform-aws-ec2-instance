@@ -1,0 +1,1 @@
+This module is for ec2 provision kindly provide the required variable value to provision an ec2 in AWS.
