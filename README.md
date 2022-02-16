@@ -1,7 +1,7 @@
 This module is used to provision an ec2 in AWS. Provide the following parameters and launch an ec2 in your required region.
 
 **Usage:**
-
+```hcl
 terraform {
 
 }
@@ -34,4 +34,4 @@ module "ec2" {
  script_path = "Absolute path for your cloud-init script"  
  
 }
-
+```
