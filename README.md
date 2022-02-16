@@ -15,7 +15,7 @@ provider "aws" {
 
 module "ec2" {
 
- source="../terraform-aws-ec2-instance"
+ source="UsmanMalik762/ec2-instance/aws"
  
  ami_id="ami-0b4946d7420c44be4 "  
  
