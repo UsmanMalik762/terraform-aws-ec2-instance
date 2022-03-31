@@ -6,7 +6,7 @@ variable "instance_tag" {
 variable "root_volume_size" {
     type = string
     description = "Root volume size (20,30)"
-    default = "8"
+    default = "20"
 }
 
 variable "volume_type" {
